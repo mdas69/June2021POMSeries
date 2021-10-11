@@ -23,11 +23,25 @@
 
 
 
-	<test name="Accounts Page Test">
+	<test name="Registartion Page Test">
 		<classes>
 			<class name="com.qa.opencart.test.AccountsPageTest" />
 		</classes>
 	</test>
-
+	
+	<test name="Product Info Page Test">
+		<classes>
+			<class name="com.qa.opencart.test.ProductInfoTest" />
+		</classes>
+	</test>
+	
+	<test name="Registartion Info Page Test">
+		<classes>
+			<class name="com.qa.opencart.test.RegistrationPageTest" />
+		</classes>
+	</test>
+	
+<!--com.qa.democart.pages.RegistrationPageTest-->
+<!--com.qa.opencart.test.AccountsPageTest-->
 
 </suite>
