@@ -84,6 +84,13 @@ public class JavasScriptUtil {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].style.border='3px solid red'", element);
 	}
+	
+	public String psuedoElement(String htmlTag, String value ) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		Object object_text=js.executeScript("window.getComputedStyle(document.querySelector('"+htmlTag+"'),'::"+value+"').getPropertyValue;");	
+		String text_string=object_text.toString();
+		return text_string;
+	}
 
 
 
