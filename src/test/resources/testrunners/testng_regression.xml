@@ -35,11 +35,12 @@
 		</classes>
 	</test>
 	
-	<test name="Registartion Info Page Test">
+	
+	<!--<test name="Registartion Info Page Test">
 		<classes>
 			<class name="com.qa.opencart.test.RegistrationPageTest" />
 		</classes>
-	</test>
+	</test>  -->
 	
 <!--com.qa.democart.pages.RegistrationPageTest-->
 <!--com.qa.opencart.test.AccountsPageTest-->
